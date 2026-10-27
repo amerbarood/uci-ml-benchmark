@@ -1,0 +1,20 @@
+dataset,Logistic Regression,SVM (RBF),Random Forest
+Cirrhosis survival,0.5873,0.6032,0.5556
+Drug-induced autoimmunity,0.8472,0.8472,0.8611
+Maths learning,0.5554,0.5643,0.5321
+Recipe reviews,0.7609,0.7627,0.7697
+BEED (EEG),0.4486,0.7703,0.9599
+PIRvision office,0.9869,0.9956,0.9939
+Accelerometer/gyro,0.9807,0.982,0.9954
+Toxicity,0.6538,0.6538,0.6923
+Soybean cultivars,0.25,0.0833,0.125
+Thyroid,0.8727,0.9091,0.9636
+DARWIN,0.6667,0.7778,0.8148
+Mushroom,0.6154,0.5385,0.6538
+Somerville happiness,0.4211,0.4737,0.4211
+Z-Alizadeh Sani,0.8261,0.8478,0.8478
+Cryotherapy,0.7857,0.9286,0.8571
+Sirtuin6,0.8,0.8667,0.9333
+Z-Alizadeh Sani (ext.),0.9565,0.913,0.9783
+Neurofibromatosis 1,0.4667,0.5333,0.5333
+Gallstone,0.8125,0.875,0.8125
