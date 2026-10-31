@@ -5,3 +5,4 @@ data/
 results/figures/
 results/supervised_results.csv
 *.h5
+.venv/

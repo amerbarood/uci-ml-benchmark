@@ -86,6 +86,8 @@ python src/image_transfer.py --data data/images/realwaste --backbone mobilenetv2
 
 Results and figures are written to `results/`.
 
+**In VS Code:** create a virtual environment (`python -m venv .venv`, then `pip install -r requirements.txt`), open the folder and select the `.venv` interpreter. The **Run and Debug** panel has a launch configuration for each command above (`.vscode/launch.json`).
+
 The scripts were refactored from the original Colab notebook (kept in [`legacy/`](legacy)), which repeated the same pipeline cell by cell for each dataset. The logic is unchanged apart from two fixes: newer pandas text columns are now encoded correctly, and RealWaste images are resized to the 224 px the model expects.
 
 ## Team

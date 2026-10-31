@@ -1,0 +1,70 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Tabular benchmark (supervised)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/tabular_benchmark.py",
+      "args": [
+        "--data",
+        "data/tabular"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Tabular benchmark (clustering)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/tabular_benchmark.py",
+      "args": [
+        "--data",
+        "data/tabular",
+        "--unsupervised"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "SMS spam detection",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/spam_detection.py",
+      "args": [
+        "--data",
+        "data/text/SMSSpamCollection"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Images: Jute Pest (ResNet50)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/image_transfer.py",
+      "args": [
+        "--data",
+        "data/images/jute_pest",
+        "--backbone",
+        "resnet50"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Images: RealWaste (MobileNetV2)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/image_transfer.py",
+      "args": [
+        "--data",
+        "data/images/realwaste",
+        "--backbone",
+        "mobilenetv2"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
